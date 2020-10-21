@@ -1,7 +1,7 @@
 import "./app.css";
 import Header from "./components/Header";
 import { createElement } from "./utils/elements";
-import { createCharacterCard } from "./Characters";
+import { createCharacterCard } from "./components/Characters";
 
 function App() {
   const header = Header();

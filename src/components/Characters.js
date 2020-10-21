@@ -1,4 +1,5 @@
-import { createElement } from "./utils/elements";
+import "./characters.css";
+import { createElement } from "../utils/elements";
 
 export const createCharacterCard = ({ name, imgSrc }) => {
   const characterName = createElement("div", {
